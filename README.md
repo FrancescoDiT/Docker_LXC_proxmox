@@ -33,8 +33,7 @@ apt update && sudo apt upgrade -y
 apt install -y apt-transport-https ca-certificates curl software-properties-common
 ```
 
-Add the Docker GPG authentication key
-
+Add the Docker GPG authentication key (it is deprecated, but it works fine!)
 ```bash
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 ```
